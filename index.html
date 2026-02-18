@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+    <div class="container">
+        <form action="" class="calculator">
+            <div class="amount">
+                <input type="number" id="number" placeholder="Amount" />
+            </div>
+
+            <div class="conversion">
+                <div class="from">
+                    <select>
+                        <option>From</option>
+                    </select>
+                </div>
+                <div class="to">
+                     <select>
+                        <option>To</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Submit" />
+            </div>
+
+            <div class="result">
+                <input type="number" placeholder="Result" id="number" class="result">
+            </div>
+        </form>
+    </div>
     
+    <script src="script.js" />
 </body>
 </html>
